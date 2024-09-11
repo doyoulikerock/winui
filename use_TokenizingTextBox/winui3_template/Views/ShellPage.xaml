@@ -7,6 +7,7 @@
     xmlns:helpers="using:winui3_template.Helpers"
     xmlns:behaviors="using:winui3_template.Behaviors"
     xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
     Loaded="OnLoaded">
 
     <Grid>
@@ -40,7 +41,9 @@
 
             <NavigationView.PaneHeader>
                 <StackPanel x:Name="NavPanHeader">
-                    <Button>test</Button>
+                    <controls:TokenizingTextBox>
+                        
+                    </controls:TokenizingTextBox>
                 </StackPanel>
             </NavigationView.PaneHeader>
 
